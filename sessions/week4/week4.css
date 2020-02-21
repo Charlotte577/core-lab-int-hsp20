@@ -1,0 +1,91 @@
+html {
+  font-size: 1rem;
+  font-family: 'Amiri', serif;
+  color:black;
+
+
+}
+
+    body {
+        padding:5rem 0;
+
+      animation: colorchange 30s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
+    }
+    @keyframes colorchange
+    {
+      0%   {background: #d3beaa;}
+      25%  {background: #c59eb3;}
+      50%  {background: #b7a68e;}
+      75%  {background: #9f9189;}
+      100% {background: #c2b2ae;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #d3beaa;}
+      25%  {background: #c59eb3;}
+      50%  {background: #b7a68e;}
+      75%  {background: #9f9189;}
+      100% {background: #c2b2ae;}
+    }
+#ds-container{
+	width: 960px;
+	margin:0px auto;
+}
+#left-sidebar{
+	color:;
+}
+h2{
+   text-align: center;
+   background-color:;
+   height:45px;
+   color: White;
+   font-size: 40px;
+   font-family: "Times New Roman", Times, serif;
+   font-style: oblique;
+   border-style:;
+
+}
+h1{
+	text-align: center;
+   background-color: white;
+   outline-style: double;
+   width: px;
+   opacity: 80%;
+}
+h3{
+	text-align: center;
+   background-color: white;
+      outline-style: double;
+         opacity: 80%;
+
+
+}
+h4{
+	text-align: center;
+   background-color: white;
+      outline-style: double;
+         opacity: 80%;
+
+
+}
+h5{
+	text-align: center;
+   background-color: white;
+      opacity: 80%;
+
+      outline-style: double;
+
+}
+}
+#left-sidebar{
+	background-color: ;
+	opacity:%;
+
+}
+h2{
+		opacity: 100%;
+
+}
