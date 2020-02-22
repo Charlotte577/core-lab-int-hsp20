@@ -31,6 +31,7 @@ main{
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   padding: 1.5em;
   margin-bottom: 1.5em;
+  background-color: #A3B4B5;
 }
 #main-content{
 	display: grid;
@@ -40,6 +41,8 @@ main{
   grid-column-gap: 1.5em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   padding: 1.5em;
+    background-color: #A3B4B5;
+
   margin-bottom: 1.5em;
 }
 
