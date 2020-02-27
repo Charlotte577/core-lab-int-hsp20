@@ -238,8 +238,8 @@ h5{
 	grid-row: 4;
 	background-color: white;
 	border-radius: 30px;
-	height: 620px;
-	margin-right: -24em;
+	height: 640px;
+	margin-right: 24em;
 	margin-left: 4em;
 	box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 }
@@ -262,19 +262,15 @@ h5{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-          margin-left: 200px;
-
+         
 }
-.cg-1{
-	        margin-right:40px;
 
-}
 .button1 {
   background-color: #ABC8CD; 
   color: white; 
   margin: 10px;
   align-content: center;
-           margin-right:-10px;
+           margin-right:5px;
 
     border-radius: 25px;
 }
@@ -344,7 +340,7 @@ input[type=text] {
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  margin-right: 250px;
+  margin-right:80px;
 }
 
 .dropdown {
