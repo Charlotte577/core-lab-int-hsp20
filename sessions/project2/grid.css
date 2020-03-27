@@ -73,7 +73,7 @@ font-family: Times, "Times New Roman", serif;
 .sidebar {
  background-color: #839D9F;
   border-radius: 20px;
-
+  box-shadow: 0 0 .5em rgba(237, 238, 244);
 
 }
 .h1,h2,h1,h3,h4,p{
@@ -82,10 +82,12 @@ font-family: Times, "Times New Roman", serif;
 .content-1{
   background-color: #ABB1CD;
   border-radius: 20px;
+  box-shadow: 0 0 .5em rgba(237, 238, 244);
 }
 .content-3 {
 background-color: #F0DD7E;
   border-radius: 20px;
+  box-shadow: 0 0 .5em rgba(237, 238, 244);
 
 }
 
