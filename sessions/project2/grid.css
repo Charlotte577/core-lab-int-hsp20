@@ -38,7 +38,7 @@
 }      
 
 body {
-  background-color: #839D9F;
+  background-color: #353353;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -71,7 +71,7 @@ font-family: Times, "Times New Roman", serif;
 }
 
 .sidebar {
- background-color: #eee;
+ background-color: #839D9F;
   border-radius: 20px;
 
 
@@ -79,9 +79,12 @@ font-family: Times, "Times New Roman", serif;
 .h1,h2,h1,h3,h4,p{
   margin:15px;
 }
-.content-1,
+.content-1{
+  background-color: #ABB1CD;
+  border-radius: 20px;
+}
 .content-3 {
-background-color: #eee;
+background-color: #F0DD7E;
   border-radius: 20px;
 
 }

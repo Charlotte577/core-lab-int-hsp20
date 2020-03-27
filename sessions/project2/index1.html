@@ -34,22 +34,47 @@ input {
   border-radius: 25px;
 }
 .required1:hover {
-  background-color: #F0DD7E; 
+  background-color: pink; 
   color: #fff; 
   border: 4px solid#CDA068;
 }
+
 #register{
 	font-family: fantasy;
 	font-weight: bold;
-	color: #839D9F;
+	color: pink;
 }
 #text1{
 	font-family: fantasy;
 	font-size: 14px;
+	color:white;
 }
 #text2{
 	font-family: fantasy;
 	font-size: 12px;
+	color:white;
+	font-style: italic;
+}
+#text3{
+	font-family: fantasy;
+	font-size: 14px;
+	color:white;
+	font-style: italic;
+	margin:7px;
+}
+.selected{
+
+}
+#County_Name{
+	 background-color: #7B8FA2; 
+  box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, .4);
+  color: white;
+  padding: 16px;
+  font-size: 9px;
+  border-radius: 19px;
+  border: none;
+  cursor: pointer;
+  margin-left:;
 }
 #title1{
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -101,7 +126,7 @@ form em { font-size:.8em; font-style:italic}
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="791f73fee7523e6efe3986b1-text/javascript"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js" type="791f73fee7523e6efe3986b1-text/javascript"></script>
   <script type="791f73fee7523e6efe3986b1-text/javascript">
-  $(document).ready(function(){
+    $(document).ready(function(){
     $("#sign-up").validate({
 
 		errorPlacement: function(error, element) {
@@ -126,6 +151,7 @@ form em { font-size:.8em; font-style:italic}
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+
 </script>
 
 </head>
@@ -137,19 +163,19 @@ form em { font-size:.8em; font-style:italic}
 
 <p id="text1">With this form, you register to vote in elections in New York State. You can also use this form to:</p>
 <ul>
-	<li id="text1"> change the name or address on your voter registration</li>
-	<li id="text1"> become a member of a political party</li>
-    <li id="text1"> change your party membership</li>
+	<li id="text3"> change the name or address on your voter registration</li>
+	<li id="text3"> become a member of a political party</li>
+    <li id="text3"> change your party membership</li>
 </ul>
 
 <h3 id="register">To register you must:</h3>
 
 <ul>
-	<li id="text1"> be a US citizen;</li>
-    <li  id="text1"> be 18 years old by the end of this year (you may pre-register at 16 or 17 but cannot vote until you are 18);</li>
-    <li id="text1"> not be in prison or on parole for a felony conviction (unless parole pardoned or restored rights of citizenship);</li>
-    <li id="text1"> not claim the right to vote elsewhere;</li>
-    <li id="text1"> not found to be incompetent by a court.</li>
+	<li id="text3"> be a US citizen;</li>
+    <li  id="text3"> be 18 years old by the end of this year (you may pre-register at 16 or 17 but cannot vote until you are 18);</li>
+    <li id="text3"> not be in prison or on parole for a felony conviction (unless parole pardoned or restored rights of citizenship);</li>
+    <li id="text3"> not claim the right to vote elsewhere;</li>
+    <li id="text3"> not found to be incompetent by a court.</li>
 </ul>
 
 <h3 id="register">Verifying your identity</h3>
@@ -167,31 +193,33 @@ form em { font-size:.8em; font-style:italic}
 <p id="text1">By signing the voter registration portion of the form, you will be attesting to the following information:</p>
 
 <ul>
-    <li id="text1">I am a citizen of the United States.</li>
-    <li id="text1">I will have lived in the county, city or village for at least 30 days before the election.</li>
-    <li id="text1">I meet all requirements to register to vote in New York State.</li>
-    <li id="text1">This is my signature or mark in the box below.</li>
-    <li id="text1">The above information is true, I understand that if it is not true, I can be convicted and fined up to $5,000 and/or jailed for up to four years.</li>
+    <li id="text3">I am a citizen of the United States.</li>
+    <li id="text3">I will have lived in the county, city or village for at least 30 days before the election.</li>
+    <li id="text3">I meet all requirements to register to vote in New York State.</li>
+    <li id="text3">This is my signature or mark in the box below.</li>
+    <li id="text3">The above information is true, I understand that if it is not true, I can be convicted and fined up to $5,000 and/or jailed for up to four years.</li>
 </ul>
 
 <p id="text1">If you also choose to complete and sign the organ donation portion of this form, you will be certifying that you are:</p>
 
 <ul>
-    <li id="text1">16 years of age or older;</li>
-    <li id="text1">consenting to donate all of your organs and tissues for transplantation, research, or both;</li>
-    <li id="text1">authorizing the Board of Elections to provide your name and identifying information to NYS Donate Life Registry for enrollment;</li>
-    <li id="text1">and authorizing the Registry to allow access to this information to federally regulated organ procurement organizations and NYS-licensed tissue and eye banks and othes approved by the NYS Commissioner of Health upon your death.</li>
+    <li id="text3">16 years of age or older;</li>
+    <li id="text3">consenting to donate all of your organs and tissues for transplantation, research, or both;</li>
+    <li id="text3">authorizing the Board of Elections to provide your name and identifying information to NYS Donate Life Registry for enrollment;</li>
+    <li id="text3">and authorizing the Registry to allow access to this information to federally regulated organ procurement organizations and NYS-licensed tissue and eye banks and othes approved by the NYS Commissioner of Health upon your death.</li>
 </ul>
 
+</br>
 <p id="text2">Once you have printed and signed your form, it must be submitted to your local board of elections. Address information for all county boards is contained within the PDF version of your completed voter registration form.</p>
 
 <p id="text2"> Mail or deliver this form at least 25 days before the election you want to vote in. Your county will notify you that you are 
 registered to vote.</p>
+</br>
 <h3 id="register">Questions?</h3>
 
-<p id="text2">Call your County Board of Elections listed below or 1-800-FOR-VOTE(TDD/TTY Dial 711)</p>
+<p id="text1">Call your County Board of Elections listed below or 1-800-FOR-VOTE(TDD/TTY Dial 711)</p>
 
-<p id="text2">Find answers or tools on our website www.elections.ny.gov</p></div>
+<p id="text1">Find answers or tools on our website www.elections.ny.gov</p></div>
 
 
 
